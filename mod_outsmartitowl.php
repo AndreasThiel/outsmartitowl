@@ -44,7 +44,7 @@ $owl_id = "owl-demo-" . $module->id;
 
 //variables are declared image1 to 10
 $gumber_img = array();
-for ($i = 1; $i < 11; $i++) {
+for ($i = 1; $i < 14; $i++) {
     $number= 'image'.$i;
     $captionnr ='caption'.$i;
     $titlenr = 'title'.$i;
@@ -54,4 +54,5 @@ for ($i = 1; $i < 11; $i++) {
     $gumber_img[$titlenr] = $params->get($titlenr);
     $gumber_img[$linknr]= $params->get($linknr);
 }
-require JModuleHelper::getLayoutPath('mod_outsmartitowl', 'default');
+//require JModuleHelper::getLayoutPath('mod_outsmartitowl', 'default');
+require JModuleHelper::getLayoutPath('mod_outsmartitowl', $params->get('layout', 'default'));

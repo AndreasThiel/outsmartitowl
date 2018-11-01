@@ -55,7 +55,7 @@ if ($gumberCarousel == 'O') {
         });');
 }
 ?>
-
+<div class="container">
 <div id="<?php echo $owl_id; ?>" class="owl-carousel owl-theme">
 
     <?php
@@ -99,4 +99,5 @@ if ($gumberCarousel == 'O') {
         }
     }
     ?>
+</div>
 </div>

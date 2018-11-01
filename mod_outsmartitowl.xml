@@ -28,7 +28,7 @@
             <fieldset name="images">
                 <field
                     name="image1"
-                    type="media"
+                    type="media" directory="referencer"
                     label="MOD_OUTSMARTITOWL_FIELD_IMAGE1_LABEL"
                     description="MOD_OUTSMARTITOWL_FIELD_IMAGE_DESC"/>
                 <field
@@ -48,7 +48,7 @@
                     description="MOD_OUTSMARTITOWL_FIELD_LINK_DESC"/>
                 <field
                     name="image2"
-                    type="media"
+                    type="media" directory="referencer"
                     label="MOD_OUTSMARTITOWL_FIELD_IMAGE2_LABEL"
                     description="MOD_OUTSMARTITOWL_FIELD_IMAGE2_DESC"/>
                 <field
@@ -68,7 +68,7 @@
                     description="MOD_OUTSMARTITOWL_FIELD_LINK_DESC"/>
                 <field
                     name="image3"
-                    type="media"
+                    type="media" directory="referencer"
                     label="MOD_OUTSMARTITOWL_FIELD_IMAGE3_LABEL"
                     description="MOD_OUTSMARTITOWL_FIELD_IMAGE_DESC"/>
                 <field
@@ -88,7 +88,7 @@
                     description="MOD_OUTSMARTITOWL_FIELD_LINK_DESC"/>
                 <field
                     name="image4"
-                    type="media"
+                    type="media" directory="referencer"
                     label="MOD_OUTSMARTITOWL_FIELD_IMAGE4_LABEL"
                     description="MOD_OUTSMARTITOWL_FIELD_IMAGE_DESC"/>
                 <field
@@ -108,7 +108,7 @@
                     description="MOD_OUTSMARTITOWL_FIELD_LINK_DESC"/>
                 <field
                     name="image5"
-                    type="media"
+                    type="media" directory="referencer"
                     label="MOD_OUTSMARTITOWL_FIELD_IMAGE5_LABEL"
                     description="MOD_OUTSMARTITOWL_FIELD_IMAGE_DESC"/>
                 <field
@@ -128,7 +128,7 @@
                     description="MOD_OUTSMARTITOWL_FIELD_LINK_DESC"/>
                 <field
                     name="image6"
-                    type="media"
+                    type="media" directory="referencer"
                     label="MOD_OUTSMARTITOWL_FIELD_IMAGE6_LABEL"
                     description="MOD_OUTSMARTITOWL_FIELD_IMAGE_DESC"/>
                 <field
@@ -148,7 +148,7 @@
                     description="MOD_OUTSMARTITOWL_FIELD_LINK_DESC"/>
                  <field
                     name="image7"
-                    type="media"
+                    type="media" directory="referencer"
                     label="MOD_OUTSMARTITOWL_FIELD_IMAGE7_LABEL"
                     description="MOD_OUTSMARTITOWL_FIELD_IMAGE_DESC"/>
                 <field
@@ -168,7 +168,7 @@
                     description="MOD_OUTSMARTITOWL_FIELD_LINK_DESC"/>
                 <field
                     name="image8"
-                    type="media"
+                    type="media" directory="referencer"
                     label="MOD_OUTSMARTITOWL_FIELD_IMAGE8_LABEL"
                     description="MOD_OUTSMARTITOWL_FIELD_IMAGE_DESC"/>
                 <field
@@ -188,7 +188,7 @@
                     description="MOD_OUTSMARTITOWL_FIELD_LINK_DESC"/>
                 <field
                     name="image9"
-                    type="media"
+                    type="media" directory="referencer"
                     label="MOD_OUTSMARTITOWL_FIELD_IMAGE9_LABEL"
                     description="MOD_OUTSMARTITOWL_FIELD_IMAGE_DESC"/>
                 <field
@@ -208,7 +208,7 @@
                     description="MOD_OUTSMARTITOWL_FIELD_LINK_DESC"/>
                 <field
                     name="image10"
-                    type="media"
+                    type="media" directory="referencer"
                     label="MOD_OUTSMARTITOWL_FIELD_IMAGE10_LABEL"
                     description="MOD_OUTSMARTITOWL_FIELD_IMAGE_DESC"/>
                 <field
@@ -226,6 +226,66 @@
                     type="text"
                     label="MOD_OUTSMARTITOWL_FIELD_LINK10_LABEL"
                     description="MOD_OUTSMARTITOWL_FIELD_LINK_DESC"/>
+                    <field
+					name="image11"
+					type="media" directory="referencer"
+					label="MOD_OUTSMARTITOWL_FIELD_IMAGE11_LABEL"
+					description="MOD_OUTSMARTITOWL_FIELD_IMAGE_DESC"/>
+					<field
+					name="title11"
+					type="text"
+					label="MOD_OUTSMARTITOWL_FIELD_TITLE11_LABEL"
+					description="MOD_OUTSMARTITOWL_FIELD_TITLE_DESC"/>
+					<field
+					name="caption11"
+					type="text"
+					label="MOD_OUTSMARTITOWL_FIELD_CAPTION11_LABEL"
+					description="MOD_OUTSMARTITOWL_FIELD_CAPTION_DESC"/>
+					<field
+					name="link11"
+					type="text"
+					label="MOD_OUTSMARTITOWL_FIELD_LINK11_LABEL"
+					description="MOD_OUTSMARTITOWL_FIELD_LINK_DESC"/>
+					<field
+					name="image12"
+					type="media" directory="referencer"
+					label="MOD_OUTSMARTITOWL_FIELD_IMAGE12_LABEL"
+					description="MOD_OUTSMARTITOWL_FIELD_IMAGE_DESC"/>
+					<field
+					name="title12"
+					type="text"
+					label="MOD_OUTSMARTITOWL_FIELD_TITLE12_LABEL"
+					description="MOD_OUTSMARTITOWL_FIELD_TITLE_DESC"/>
+					<field
+					name="caption12"
+					type="text"
+					label="MOD_OUTSMARTITOWL_FIELD_CAPTION12_LABEL"
+					description="MOD_OUTSMARTITOWL_FIELD_CAPTION_DESC"/>
+					<field
+					name="link12"
+					type="text"
+					label="MOD_OUTSMARTITOWL_FIELD_LINK12_LABEL"
+					description="MOD_OUTSMARTITOWL_FIELD_LINK_DESC"/>
+					<field
+					name="image13"
+					type="media" directory="referencer"
+					label="MOD_OUTSMARTITOWL_FIELD_IMAGE13_LABEL"
+					description="MOD_OUTSMARTITOWL_FIELD_IMAGE_DESC"/>
+					<field
+					name="title13"
+					type="text"
+					label="MOD_OUTSMARTITOWL_FIELD_TITLE13_LABEL"
+					description="MOD_OUTSMARTITOWL_FIELD_TITLE_DESC"/>
+					<field
+					name="caption13"
+					type="text"
+					label="MOD_OUTSMARTITOWL_FIELD_CAPTION13_LABEL"
+					description="MOD_OUTSMARTITOWL_FIELD_CAPTION_DESC"/>
+					<field
+					name="link13"
+					type="text"
+					label="MOD_OUTSMARTITOWL_FIELD_LINK13_LABEL"
+					description="MOD_OUTSMARTITOWL_FIELD_LINK_DESC"/>
             </fieldset>
             <fieldset name="general">
                 <field name="carousel_type"
