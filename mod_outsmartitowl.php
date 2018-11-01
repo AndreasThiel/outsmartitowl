@@ -16,7 +16,7 @@ $bigcaption = $params->get('bigcaption');
 
 $document->addStyleSheet(JURI::base() . '/modules/mod_outsmartitowl/assets/owl.carousel.min.css');
 $document->addStyleSheet(JURI::base() . '/modules/mod_outsmartitowl/assets/owl.theme.default.min.css');
-$document->addStyleSheet(JURI::base() . '/modules/mod_outsmartitowl/assets/outsmartitowl.css');    
+//$document->addStyleSheet(JURI::base() . '/modules/mod_outsmartitowl/assets/outsmartitowl.css');    
 
 $gumberCarousel = $params->get('carousel_type');
 $gumberspeed = $params->get('CarSpeed');

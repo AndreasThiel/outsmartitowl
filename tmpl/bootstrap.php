@@ -23,7 +23,8 @@ if ($gumberCarousel == 'O') {
                 dotsSpeed: 400,
                 items: 1,
                 dots:' . $paginationbool . ', 
-                nav:' . $navigationbool . ',    
+                nav:' . $navigationbool . ',
+                navText : ["<i class=\'fa fa-chevron-left\'></i>","<i class=\'fa fa-chevron-right\'></i>"],
             });
         });');
    /* $document->addScriptDeclaration('jQuery(document).ready(function () {
